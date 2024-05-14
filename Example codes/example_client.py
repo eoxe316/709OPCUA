@@ -17,6 +17,13 @@ myclient = Client(endpoint)
 # Connect to server
 myclient.connect()
 
+# Get the root node of the adress space
+objects_node = myclient.get_objects_node()
+
+print(objects_node.get_children()[1].get_children()[0])
+print(objects_node.get_children()[1].get_children()[1])
+
+
 # Assign nodes
 Temperature_node = myclient.get_node("ns=2;i=3")
 
