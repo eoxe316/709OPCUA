@@ -1,0 +1,16 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+#ignore these
+Company_1_Operation_List.txt
+Company_2_Operation_List.txt
