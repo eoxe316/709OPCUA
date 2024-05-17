@@ -10,7 +10,3 @@ venv/
 
 # Ignore log files
 *.log
-
-#ignore these
-Company_1_Operation_List.txt
-Company_2_Operation_List.txt
